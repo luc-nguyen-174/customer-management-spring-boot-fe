@@ -6,7 +6,25 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
+
+
 <div align="center">
+    <form>
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" id="firstName" name="firstName" placeholder="first name"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" id="lastName" name="lastName" placeholder="last name"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit"  onclick="addNewCustomer()">Add</button></td>
+            </tr>
+        </table>
+    </form>
     <table>
         <thead>
         <tr>
@@ -18,8 +36,6 @@
         <tbody id="content"></tbody>
     </table>
 </div>
-<button><a href="newCustomer.html" ></a>
-</button>
 <script src="script.js"></script>
 </body>
 </html>
